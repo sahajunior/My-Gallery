@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 auto 50px auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 75vw;
+  font-family: "Montserrat", sans-serif;
+  color: #4e5150;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+
+.info {
+  width: 16%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 24px;
+  width: 300%;
+  text-align: center;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.address {
+  color: #a9a9a9;
+
+  font-size: 14px;
+  width: 200%;
+  text-align: center;
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.account-detail {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8em 1.1em;
+  margin: 1rem;
+  border-radius: 12px;
+  width: 7%;
+}
+
+.card-number {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-type {
+  margin: 0;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.images-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-rows: repeat(3, 30%);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "image1 image2 image2"
+    "image3 image3 image4"
+    "image5 image6 image4";
+}
+
+.image1 {
+  grid-area: image1;
+}
+
+.image2 {
+  grid-area: image2;
+}
+
+.image3 {
+  grid-area: image3;
+}
+
+.image4 {
+  grid-area: image4;
+  border-radius: 50%;
+}
+
+.image5 {
+  grid-area: image5;
+}
+
+.image6 {
+  grid-area: image6;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+.footer-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #bdbdbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+
+.footer-text a:hover {
+  color: #f7542e;
+  font-weight: bold;
+}
+
+@media (max-width: 1150px) {
+  body {
+    width: 70vw;
+  }
+
+  .card {
+    padding: 0.8em 1.4em;
+  }
+
+  .info {
+    width: 19%;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 90vw;
+  }
+
+  .profile {
+    margin: 2rem 0;
+  }
+
+  .card {
+    padding: 0.6em 1.8em;
+    margin: 0.5rem;
+  }
+
+  .info {
+    width: 82px;
+  }
+
+  .name {
+    font-size: 14px;
+  }
+
+  .Address {
+    font-size: 10px;
+  }
+
+  .card-number,
+  .card-type {
+    font-size: 12px;
+  }
+
+  .account-detail {
+    margin-top: 0.5rem;
+  }
+}
