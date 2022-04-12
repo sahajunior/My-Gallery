@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 html {
   position: relative;
@@ -54,7 +54,7 @@ img {
   border-radius: 12px;
 }
 
-.account-detail {
+.acc-detail {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -184,7 +184,7 @@ footer {
     font-size: 14px;
   }
 
-  .Address {
+  .address {
     font-size: 10px;
   }
 
@@ -193,7 +193,7 @@ footer {
     font-size: 12px;
   }
 
-  .account-detail {
+  .acc-detail {
     margin-top: 0.5rem;
   }
 }
