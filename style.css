@@ -121,8 +121,10 @@ img {
   grid-area: image6;
 }
 
-footer {
-  margin-top: 2rem;
+.footer {
+  text-align: center;
+  margin: auto;
+  padding-top: 6rem;
 }
 
 .footer-text {
